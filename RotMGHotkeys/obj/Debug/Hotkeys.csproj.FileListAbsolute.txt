@@ -1,0 +1,13 @@
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Hotkeys.dll.config
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Hotkeys.dll
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Hotkeys.pdb
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Lib K Relay.dll
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Lib K Relay.dll.config
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.csprojAssemblyReference.cache
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.Properties.Resources.resources
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.csproj.GenerateResource.cache
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.csproj.CoreCompileInputs.cache
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.csproj.CopyComplete
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.dll
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.pdb
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.Settings.resources

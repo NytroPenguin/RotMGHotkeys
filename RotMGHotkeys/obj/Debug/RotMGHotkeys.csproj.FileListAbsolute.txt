@@ -1,0 +1,25 @@
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Hotkeys.dll.config
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Hotkeys.dll
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Hotkeys.pdb
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Lib K Relay.dll
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\bin\Debug\Lib K Relay.dll.config
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.Properties.Resources.resources
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\RotMGHotkeys.csproj.GenerateResource.cache
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\RotMGHotkeys.csproj.CoreCompileInputs.cache
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\RotMGHotkeys.csproj.CopyComplete
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.dll
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\Hotkeys.pdb
+C:\Users\Greg Cruice\source\repos\Hotkeys\Hotkeys\obj\Debug\RotMGHotkeys.csprojAssemblyReference.cache
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\bin\Debug\Lib K Relay.dll
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\bin\Debug\Lib K Relay.dll.config
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\obj\Debug\RotMGHotkeys.csprojAssemblyReference.cache
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\obj\Debug\RotMGHotkeys.csproj.GenerateResource.cache
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\obj\Debug\RotMGHotkeys.csproj.CoreCompileInputs.cache
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\obj\Debug\RotMGHotkeys.csproj.CopyComplete
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\obj\Debug\RotMGHotkeys.Properties.Resources.resources
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\obj\Debug\RotMGHotkeys.Settings.resources
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\bin\Debug\RotMGHotkeys.dll.config
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\bin\Debug\RotMGHotkeys.dll
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\bin\Debug\RotMGHotkeys.pdb
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\obj\Debug\RotMGHotkeys.dll
+C:\Users\Greg Cruice\source\repos\RotMGHotkeys\RotMGHotkeys\obj\Debug\RotMGHotkeys.pdb
