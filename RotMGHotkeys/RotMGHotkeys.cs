@@ -21,6 +21,8 @@ namespace RotMGHotkeys
     {
         private Settings gui;
         private Client _client;
+        private bool hotswapping = false;
+        private DateTime lastSwapTime = DateTime.Now;
         public string GetAuthor()
         {
             return "NytroPenguin";
@@ -45,9 +47,17 @@ namespace RotMGHotkeys
         {
             gui = new Settings(this);
             PluginUtils.ShowGUI(gui);
-            PluginUtils.Log("test", this.GetName());
             proxy.HookCommand("hotkeys", onCommand);
             proxy.HookPacket(PacketType.UPDATE, onUpdatePacket);
+            proxy.HookPacket(PacketType.PLAYERSHOOT, onShoot);
+        }
+
+        private void onShoot(Client client, Packet packet)
+        {
+            if (hotswapping)
+            {
+                packet.Send = false;
+            }
         }
 
         private void onUpdatePacket(Client client, Packet packet)
@@ -148,48 +158,52 @@ namespace RotMGHotkeys
 
         private void inventorySwap(byte itemSlot)
         {
+            if (DateTime.Now < lastSwapTime.AddSeconds(2))
+                return;
+            lastSwapTime = DateTime.Now;
+            hotswapping = true;
             byte equipSlotId = 0;
             if (_client.PlayerData.Slot[(int)itemSlot] == -1)
                 return;
             switch (GameData.Items.ByID((ushort)_client.PlayerData.Slot[(int)itemSlot]).SlotType)
             {
-                case 1:
-                case 2:
-                case 3:
-                case 8:
-                case 17:
-                case 24:
-                    equipSlotId = 0;
-                    break;
-                case 6:
-                case 7:
-                case 14:
-                    equipSlotId = 2;
-                    break;
-                case 4:
-                case 5:
-                case 11:
-                case 12:
-                case 13:
-                case 15:
-                case 16:
-                case 18:
-                case 19:
-                case 20:
-                case 21:
-                case 22:
-                case 23:
-                case 25:
-                case 27:
-                    equipSlotId = 1;
-                    break;
-                case 9:
-                    equipSlotId = 3;
-                    break;
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 8:
+                    case 17:
+                    case 24:
+                        equipSlotId = 0;
+                        break;
+                    case 6:
+                    case 7:
+                    case 14:
+                        equipSlotId = 2;
+                        break;
+                    case 4:
+                    case 5:
+                    case 11:
+                    case 12:
+                    case 13:
+                    case 15:
+                    case 16:
+                    case 18:
+                    case 19:
+                    case 20:
+                    case 21:
+                    case 22:
+                    case 23:
+                    case 25:
+                    case 27:
+                        equipSlotId = 1;
+                        break;
+                    case 9:
+                        equipSlotId = 3;
+                        break;
 
-            }
+                }
             InvSwapPacket invSwap = (InvSwapPacket)Packet.Create(PacketType.INVSWAP);
-            invSwap.Time = _client.Time + 50;
+            invSwap.Time = _client.Time + 10;
             invSwap.Position = _client.PlayerData.Pos;
 
             invSwap.SlotObject1 = new SlotObject();
@@ -203,7 +217,10 @@ namespace RotMGHotkeys
             invSwap.SlotObject2.ObjectType = _client.PlayerData.Slot[(int)itemSlot];
 
             _client.SendToServer(invSwap);
+            PluginUtils.Delay(1000, () => {
+                hotswapping = false;
+            });
         }
-
+        
     }
 }
