@@ -70,16 +70,16 @@ namespace RotMGHotkeys
             _client = client;
             if (command == "hotkeys")
             {
-                if (args[0] == "enable")
+                if (args[0] == "on")
                 {
                     gui?.Close();
                     gui = new Settings(this);
                     PluginUtils.ShowGUI(gui);
-                    client.SendToClient(PluginUtils.CreateNotification(client.ObjectId, "Text Hotkeys: Enabled"));
-                } else if (args[0] == "disable")
+                    client.SendToClient(PluginUtils.CreateNotification(client.ObjectId, "Text Hotkeys: on"));
+                } else if (args[0] == "off")
                 {
                     gui?.Close();
-                    client.SendToClient(PluginUtils.CreateNotification(client.ObjectId, "Text Hotkeys: Disabled"));
+                    client.SendToClient(PluginUtils.CreateNotification(client.ObjectId, "Text Hotkeys: off"));
                 } 
             }
         }
