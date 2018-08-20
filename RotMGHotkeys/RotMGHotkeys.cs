@@ -30,7 +30,7 @@ namespace RotMGHotkeys
 
         public string[] GetCommands()
         {
-            return new string[] { "/hotkeys enable:disable", "invSwap enable:disable" };
+            return new string[] { "/hotkeys enable:disable", "invSwap on:off" };
         }
 
         public string GetDescription()
